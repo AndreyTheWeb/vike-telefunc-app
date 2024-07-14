@@ -2,9 +2,9 @@
 import { todos } from "../../database/todoItems";
 
 export type Data = {
-  todo: { text: string }[];
+	todo: { text: string }[];
 };
 
 export default async function data(): Promise<Data> {
-  return todos;
+	return todos;
 }

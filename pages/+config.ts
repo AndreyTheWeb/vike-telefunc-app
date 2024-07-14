@@ -5,10 +5,10 @@ import Layout from "../layouts/LayoutDefault.js";
 
 // Default config (can be overridden by pages)
 export default {
-  Layout,
-  Head,
+	Layout,
+	Head,
 
-  // <title>
-  title: "My Vike App",
-  extends: vikeReact,
+	// <title>
+	title: "My Vike App",
+	extends: vikeReact,
 } satisfies Config;
